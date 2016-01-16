@@ -1,0 +1,18 @@
+body {
+	font-family: MyriadPro-Regular, $font-family-sans-serif;
+}
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: $primary;
+
+	&:hover {
+		color: darken($primary, 15%);
+		text-decoration: underline;
+	}
+}

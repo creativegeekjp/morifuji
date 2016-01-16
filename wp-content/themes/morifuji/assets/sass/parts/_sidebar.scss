@@ -1,0 +1,52 @@
+#sidebar {
+	@extend %pull-left;
+	width: 180px;
+	padding: 10px;
+	background: $primary;
+
+	a {
+		color: $white;
+	}
+}
+
+#site-navigation {
+	.menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		padding: 1px 5px 3px 5px;
+		border-bottom: 1px solid $white;
+	}
+
+	a:before {
+		@extend .fa, .fa-caret-right;
+		color: $danger;
+		margin: 0 10px 0 5px;
+		font-size: 24px;
+		position: relative;
+		top: 2px;
+	}
+
+	.sub-menu {
+		list-style: none;
+		padding: 0 0 0 12px;
+		margin: 0;
+
+		li {
+			border-bottom: 0 none;
+			border-top: 1px solid $white;
+		}
+	}
+}
+
+#site-navigation .title {
+	@extend %text-center;
+	font: bold 20px/1.2 $font-family-sans-serif;
+	color: $white;
+	margin: 18px 0 0;
+	padding-bottom: 18px;
+	border-bottom: 1px solid $white;
+}

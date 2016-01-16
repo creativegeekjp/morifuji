@@ -1,0 +1,8 @@
+#dc_jqaccordion_widget-%ID%-item{border-top: 1px solid #fff; }
+#dc_jqaccordion_widget-%ID%-item ul, #dc_jqaccordion_widget-%ID%-item ul, #dc_jqaccordion_widget-%ID%-item ul li {margin: 0; padding: 0; border: none; list-style: none;}
+#dc_jqaccordion_widget-%ID%-item ul a {background-repeat: no-repeat; background-position: 10px center; border-bottom: 1px solid #fff; padding: 3px; text-decoration:none; display: block; color: #fff; font-weight: bold;}
+#dc_jqaccordion_widget-%ID%-item ul ul a {font-weight: bold; }
+#dc_jqaccordion_widget-%ID%-item ul a.dcjq-parent { font-weight: bold;}
+#dc_jqaccordion_widget-%ID%-item ul a.dcjq-parent.active {}
+#dc_jqaccordion_widget-%ID%-item ul a:hover {background-color: rgba(0, 188, 212, 0.61);}
+#dc_jqaccordion_widget-%ID%-item ul a.active {background-color: rgba(248, 251, 251, 0.27);}

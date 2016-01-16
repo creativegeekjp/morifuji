@@ -1,0 +1,29 @@
+#content {
+	@extend %pull-left;
+	width: 100%;
+	background: #fff url('../img/bg-content.png') repeat-y;
+}
+
+#primary {
+	@extend %pull-right;
+	width: 800px;
+}
+
+#main {
+	padding: 30px;
+	color: $white;
+	background: $gray-base;
+}
+
+.home #main {
+	padding: 3px;
+
+	h1 {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color=#00b5ad)";/*IE 8*/
+		text-shadow: 2px 2px 4px #00b5ad;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color=#00b5ad); /*IE 5.5-7*/
+		color: $white;
+		font-weight: normal;
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'MyriadPro-BoldIt';
+  src: url('MyriadPro-BoldIt.eot?#iefix') format('embedded-opentype'),  url('MyriadPro-BoldIt.otf')  format('opentype'),
+	     url('MyriadPro-BoldIt.woff') format('woff'), url('MyriadPro-BoldIt.ttf')  format('truetype'), url('MyriadPro-BoldIt.svg#MyriadPro-BoldIt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,77 @@
+@mixin b-radius( $radius ) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-khtml-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin box( $dimension ) {
+	height: $dimension;
+	width: $dimension;
+}
+
+@mixin ghost ( $border-width, $color ) {
+  border-width: $border-width;
+  border-color: $color;
+  background: transparent;
+  color: $color;
+}
+
+@mixin ghost-hover ( $color, $bg ) {
+  background: $bg;
+  border-color: $bg;
+  color: $color;
+}
+
+// Convert pixels to ems
+// eg. for a relational value of 12px write em(12) when the parent is 16px
+// if the parent is another value say 24px write em(12, 24)
+
+@function em($pxval, $base: $basepx) {
+  @return ($pxval / $base) * 1em;
+}
+
+// CONVERT TO REM
+@function convert-to-rem($value, $base-value: $rembase)  {
+  $value: strip-unit($value) / strip-unit($base-value) * 1rem;
+  @if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
+  @return $value;
+}
+
+// STRIP UNIT
+// It strips the unit of measure and returns it
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// REM CALC
+// New Syntax, allows to optionally calculate on a different base value to counter compounding effect of rem's.
+// Call with 1, 2, 3 or 4 parameters, 'px' is not required but supported:
+//
+//   rem-calc(10 20 30px 40);
+//
+// Space delimited, if you want to delimit using comma's, wrap it in another pair of brackets
+//
+//   rem-calc((10, 20, 30, 40px));
+//
+// Optionally call with a different base (eg: 8px) to calculate rem.
+//
+//   rem-calc(16px 32px 48px, 8px);
+//
+// If you require to comma separate your list
+//
+//   rem-calc((16px, 32px, 48), 8px);
+
+@function rem-calc($values, $base-value: $rembase) {
+  $max: length($values);
+
+  @if $max == 1 { @return convert-to-rem(nth($values, 1), $base-value); }
+
+  $remValues: ();
+  @for $i from 1 through $max {
+    $remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
+  }
+  @return $remValues;
+}
+
+$path:  '../img';

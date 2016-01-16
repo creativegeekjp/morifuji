@@ -1,0 +1,48 @@
+#breadcrumbs {
+	background: $gray-lighter;
+	padding: 14px 15px;
+
+	a {
+		font-size: 13px;
+	}
+}
+
+.pills {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		// display: table-cell;
+		// width: 1%;
+		display: inline-block;
+		min-width: 120px;
+		@extend %text-center;
+	}
+
+	li a {
+		display: block;
+		padding: 4px 2px;
+		background: $white;
+		color: $gray;
+		@include b-radius(5px);
+		border: 1px solid $white;
+		margin-right: 13px;
+		@extend strong;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 3px 3px 8px #333333;/*FF 3.5+*/
+-webkit-box-shadow: 3px 3px 8px #333333;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 3px 3px 8px #333333;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color=#333333); /*IE 5.5-7*/
+
+		&:hover {
+			border-color: $danger;
+			text-decoration: none;
+		}
+	}
+
+	li:last-child a {
+		margin: 0;
+	}
+
+}
