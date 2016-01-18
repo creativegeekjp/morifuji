@@ -24,7 +24,9 @@ section,
 summary {
   display: block;
 }
-
+.entry-content p{
+    margin: 3px !important;
+}
 audio,
 canvas,
 progress,
@@ -2816,6 +2818,7 @@ article#childPage{
 #breadcrumbs {
   background: #d1d2d4;
   padding: 14px 15px;
+  height: 54px;
 }
 #breadcrumbs a {
   font-size: 13px;
@@ -2907,7 +2910,7 @@ article#childPage{
 }
 .entry-content{
   height: 450px;
-  overflow-y: visible;
+  overflow-y: auto;
   padding: 30px;
 }
 .table-content{
@@ -3040,6 +3043,14 @@ article#childPage{
   background: red;
   z-index: -1;
 }
+.imgContainer img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
 /*===============================================*/
 .second-line{
@@ -3047,4 +3058,23 @@ article#childPage{
 }
 .second-line h1{
   font-size: 23px
+}
+
+#breadcrumbs-area .current_page_item .children li a{
+  display: none;
+}
+#breadcrumbs-area .current_page_parent a:after{
+  content: " ⇒ ";
+}
+#breadcrumbs-area .current_page_ancestor a:after{
+  content: " ⇒ ";
+}
+#breadcrumbs-area .current_page_item a:after{
+  content: "";
+}
+#breadcrumbs-area ul{
+  list-style: none;
+  display: inline-block;
+  padding-left: 2px;
+  padding: 8px 0;
 }

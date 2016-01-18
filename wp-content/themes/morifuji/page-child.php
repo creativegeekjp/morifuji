@@ -12,10 +12,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 
-		<div id="breadcrumbs-area" role="contentinfo">
-			<?php if(function_exists(simple_breadcrumb)) {simple_breadcrumb();} ?> 
-		</div>
-
+		<?php get_template_part('parts/subBreadcrumbs') ?>
 		<main id="main" class="child" role="main" style="padding: 25px;">
 
 			<?php

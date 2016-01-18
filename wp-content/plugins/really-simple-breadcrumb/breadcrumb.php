@@ -16,7 +16,7 @@ function simple_breadcrumb() {
     global $post;
 	$separator = "  ⇒  "; // Simply change the separator to what ever you need e.g. / or >
 	
-    echo '<div class="breadcrumb">';
+   
 	if (!is_front_page()) {
 		echo '<a href="';
 		echo get_option('home');
@@ -49,6 +49,6 @@ function simple_breadcrumb() {
 	} else {
 		bloginfo('name');
 	}
-	echo '</div>';
+
 }
 ?>

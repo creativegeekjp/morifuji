@@ -23,6 +23,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+		
 	</div><!-- .entry-content -->
 	<hr style = "border-top: 1px solid rgb(0, 181, 173) !important;">
 	<p class= "text-right" style="display: block; margin:1px 10px ; font-size: 17px;">Processing technology</p>

@@ -16,10 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 
-		<div id="breadcrumbs-area" role="contentinfo">	
-		<?php if(function_exists(simple_breadcrumb)) {simple_breadcrumb();} ?> 
-		</div>
-		
+	    <?php get_template_part('parts/breadcrumbs') ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php
