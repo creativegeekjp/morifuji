@@ -1,6 +1,6 @@
-<div id="breadcrumbs-area" role="contentinfo">
+<div id="breadcrumbs" role="contentinfo">
 
-	<ul style="    padding: 0 0px 0px 30px;">
+	<ul style="">
 		<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="">TOP ⇒ </a></li>
 	</ul>
 <?php
