@@ -3120,7 +3120,8 @@ article#childPage{
     position: relative;
     height: 160px;
     border: 1px solid #00B5AD;
-    padding: 0px !important;
+    padding: 0 !important;
+    background: rgba(140, 137, 137, 0.42);
 }
 ::-webkit-scrollbar {
     width: 8px;
