@@ -2705,7 +2705,7 @@ a:hover {
 
 #sidebar {
   width: 231px;
-  height: 758px;
+  height: 728px;
   padding: 10px;
   background: #00B5AD;
   position: relative;
@@ -2780,10 +2780,17 @@ a:hover {
 
 #main {
   padding: 30px;
-  height: 600px;
+  height: 570px;
   color: #fff;
   background: #fff url("../img/bg-page.jpg") no-repeat;
   background-size: cover;
+}
+.page-b{
+    padding: 30px;
+  height: 570px;
+  color: #fff;
+  background: #fff url("../img/page-banner-b.jpg") no-repeat !important;
+  background-size: cover !important;
 }
 .child{
   padding: 25px;
@@ -2911,9 +2918,9 @@ article#childPage{
   margin-bottom: 5px;
 }
 .entry-content{
-  height: 450px;
+  height: 420px;
   overflow-y: auto;
-  padding: 30px;
+  padding: 10px;
   overflow-x: hidden;
 }
 .table-content{
@@ -2932,7 +2939,7 @@ article#childPage{
   margin: 1px;
 }
 .homeImg{
-  margin: 30px 0 5px ;
+  margin: 50px 0 5px ;
 }
 .title-pills{
   display: block;
@@ -2964,6 +2971,7 @@ article#childPage{
   border: 1px solid;
   padding: 5px;
   background: rgba(117, 115, 115, 0.53);
+  margin: 3px;
 }
 .home-table{
   border-top: 1px solid #fff;
@@ -3085,6 +3093,7 @@ article#childPage{
     border: 1px solid #00B5AD;
    text-align: center;
    margin-bottom: 30px;
+   background: rgba(0, 0, 0, 0.46);
 }
 .blank-img-cont{
     width: 230px;
@@ -3123,6 +3132,30 @@ article#childPage{
     padding: 0 !important;
     background: rgba(140, 137, 137, 0.42);
 }
+.main-content{
+    padding: 10px 20px 50px;
+}
+.sub-content{
+    border: 1px solid #00B5AD;
+    background: rgba(74, 74, 74, 0.62);
+    margin: 30px 0px;
+}
+.sub-title{
+    border-bottom: 1px solid #00B5AD;
+}
+.sub-title h1{
+    padding: 5px 20px;
+    margin: 0px;
+    text-shadow: 0 0 10px rgb(0, 181, 173) , 0 0 20px rgb(0, 181, 173), 0 0 20px rgba(255,255,255,1);
+}
+.sub-inner-content{
+    padding: 20px;
+}
+.inner-img{
+    padding: 20px;
+}
+
+
 ::-webkit-scrollbar {
     width: 8px;
 }
