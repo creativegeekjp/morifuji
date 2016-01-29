@@ -2786,7 +2786,14 @@ a:hover {
   background-size: cover;
 }
 .page-b{
-    padding: 30px;
+  padding: 30px;
+  height: 570px;
+  color: #fff;
+  background: #fff url("../img/page-banner-b.jpg") no-repeat !important;
+  background-size: cover !important;
+}
+.child-b{
+  padding: 30px;
   height: 570px;
   color: #fff;
   background: #fff url("../img/page-banner-b.jpg") no-repeat !important;
@@ -3135,6 +3142,9 @@ article#childPage{
 .main-content{
     padding: 10px 20px 50px;
 }
+.main-content-b{
+    padding: 0 10px;
+}
 .sub-content{
     border: 1px solid #00B5AD;
     background: rgba(74, 74, 74, 0.62);
@@ -3143,10 +3153,19 @@ article#childPage{
 .sub-title{
     border-bottom: 1px solid #00B5AD;
 }
+.sub-title-b{
+    border-bottom: 4px solid #00B5AD;
+}
 .sub-title h1{
     padding: 5px 20px;
     margin: 0px;
     text-shadow: 0 0 10px rgb(0, 181, 173) , 0 0 20px rgb(0, 181, 173), 0 0 20px rgba(255,255,255,1);
+}
+.sub-title-b h3{
+    padding: 5px 20px;
+    margin: 0px;
+    text-shadow: 0 0 10px rgb(0, 181, 173) , 0 0 20px rgb(0, 181, 173), 0 0 20px rgba(255,255,255,1);
+    font-weight: bolder;
 }
 .sub-inner-content{
     padding: 20px;
@@ -3154,7 +3173,20 @@ article#childPage{
 .inner-img{
     padding: 20px;
 }
-
+.cont-info-b{
+    border: 1px solid #00B5AD;
+    margin-right: 50px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+}
+.cont-info-b img{
+    height: 20px;
+    width: auto;
+}
+.b-img img{
+    width: 228px;
+    height: auto;
+}
 
 ::-webkit-scrollbar {
     width: 8px;
