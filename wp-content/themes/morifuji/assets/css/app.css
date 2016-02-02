@@ -2799,6 +2799,13 @@ a:hover {
   background: #fff url("../img/page-banner-c.jpg") no-repeat !important;
   background-size: cover !important;
 }
+.page-d{
+  padding: 30px;
+  height: 570px;
+  color: #fff;
+  background: #fff url("../img/page-banner-d.jpg") no-repeat !important;
+  background-size: cover !important;
+}
 .child-b{
   padding: 30px;
   height: 570px;
@@ -3210,6 +3217,9 @@ article#childPage{
 }
 .rows-c p{
     padding: 0 30px;
+}
+.page-d .entry-content{
+    overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {
