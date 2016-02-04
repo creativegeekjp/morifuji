@@ -2697,6 +2697,11 @@ a:hover {
   text-decoration: none;
   color: #EF3E3E;
 }
+p a:hover {
+  text-decoration: none;
+  color: #EF3E3E;
+}
+
 
 #footer {
   background: #d1d2d4;
@@ -3187,10 +3192,13 @@ article#childPage{
     padding: 5px 20px;
     margin: 0px;
     text-shadow: 0 0 10px rgba(0,252,235,1) , 0 0 20px rgba(0,246,255,1) , 0 0 30px rgba(4,225,249,1) , 0 0 40px #0cf4f0 , 0 0 1px #09f7ef , 0 0 2px #02e8c5 , 0 0 0 rgba(0,229,237,1) ;
-    font-weight: bolder;
 }
 .sub-inner-content{
     padding: 20px;
+}
+.sub-inner-b3{
+    padding: 10px;
+    padding-left: 20px !important;
 }
 .inner-img{
     padding: 20px;

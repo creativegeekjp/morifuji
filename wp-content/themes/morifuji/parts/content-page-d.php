@@ -27,7 +27,7 @@
 
 	</div><!-- .entry-content -->
 		 	<hr>
-			<p class= "text-right" style="display: block; margin:1px 10px; font-size: 17px;">Results of work</p>
+			<p class= "text-right" style="display: block; margin:1px 10px; font-size: 17px;">Inquiries</p>
 </article><!-- #post-## -->
 	<footer class="entry-footer">
 		<?php

@@ -17,7 +17,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</nav><!-- #site-navigation -->
 	<div class="nav-subtitle">
-		<p>カラーステンレス清掃メンテナンス要領</p>
+		<p><a href="#">カラーステンレス清掃メンテナンス要領</a></p>
 	</div>
 	<div class="banner-nav" id="top-img">
 		<p>関連企業「サン・アクト株式会社」</p>
