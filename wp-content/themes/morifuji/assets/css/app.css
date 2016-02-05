@@ -3229,6 +3229,12 @@ article#childPage{
 .page-d .entry-content{
     overflow-y: hidden;
 }
+.center-table th{
+    text-align: center;
+}
+.center-table td{
+    vertical-align: middle !important;
+}
 
 ::-webkit-scrollbar {
     width: 8px;
