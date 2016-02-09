@@ -21,11 +21,11 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	</div>
 	<div class="banner-nav" id="top-img">
 		<p>関連企業「サン・アクト株式会社」</p>
-		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/navFoot.jpg"  alt="logo: Morifuji">
+		<a href="http://samples.creativegeek.jp/morifuji/%E3%82%B5%E3%83%B3%E3%82%A2%E3%82%AF%E3%83%88/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/navFoot.jpg"  alt="logo: Morifuji"></a>
 	</div>
 	<div class="banner-nav">
 		<p>関連企業「株式会社テクノアンカー」</p>
-		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/banner2.jpg"  alt="logo: Morifuji">
+		<a href="http://samples.creativegeek.jp/morifuji/%E3%83%86%E3%82%AF%E3%83%8E%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%BC/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/banner2.jpg"  alt="logo: Morifuji"></a>
 	</div>
 </aside><!-- #secondary -->
 

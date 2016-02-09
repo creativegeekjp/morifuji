@@ -3135,6 +3135,12 @@ article#childPage{
     height: 150px;
     border: 1px solid #00B5AD;
 }
+.blank-img-white{
+    width: 230px;
+    background: #fff;
+    height: 150px;
+    border: 1px solid #00B5AD;
+}
 .one-col-border{
   border-right: 1px solid;
   border-bottom: 1px solid;
@@ -3219,6 +3225,7 @@ article#childPage{
 }
 .part-c-inner{
     margin-bottom: 4px;
+    padding-left: 20px;
 }
 .rows-c h3{
     padding: 0 30px;

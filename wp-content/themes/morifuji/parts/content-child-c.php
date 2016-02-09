@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title pageTitle" >', '</h1>' ); ?>
 		
 	</header><!-- .entry-header -->
-	<div class="entry-content" style="padding: 0;">
+	<div class="entry-content" style="padding: 10px 0;">
 		<?php
 			the_content();
 
