@@ -3257,6 +3257,29 @@ article#childPage{
 .center-table td{
     vertical-align: middle !important;
 }
+.table-d td, th{
+    padding: 5px 10px;
+}
+.table-sunact td, th{
+    padding: 5px 10px;
+    vertical-align: top;
+}
+.inside-sunact td{
+    padding: 0px 0px;
+}
+#sunact-img{
+    position: absolute;
+    left: 515px;
+    right: 0;
+    top: -625px;
+}
+#sunact-img2{
+    position: absolute;
+    left: 515px;
+    right: 0;
+    top: -440px;
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
