@@ -3092,6 +3092,7 @@ article#childPage{
   position: relative;
   border: 1px solid #00B5AD;
   border-radius: 10px;
+  overflow: hidden;
   }
 .imgContainer:after {
   content: '';
@@ -3104,12 +3105,7 @@ article#childPage{
   z-index: -1;
 }
 .imgContainer img{
-    position: absolute;
     margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 /*===============================================*/
