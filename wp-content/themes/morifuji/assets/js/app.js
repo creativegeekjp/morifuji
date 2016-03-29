@@ -17,13 +17,15 @@
 	$(document).ready(function() {
  
       $("#owl-demo").owlCarousel({
-     
-          autoPlay: 3000, //Set AutoPlay to 3 seconds
-     
+          autoplay:true,
+          autoplayTimeout:1000,
+          autoplayHoverPause:true,
+          margin:10,
+          loop:true,
+          autoWidth:true,
           items : 4,
           itemsDesktop : [1199,3],
-          itemsDesktopSmall : [979,3]
-     
+          itemsDesktopSmall : [979,3],
       });
      
     });

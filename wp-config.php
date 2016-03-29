@@ -22,6 +22,8 @@
 /** The name of the database for WordPress */
 define('DB_NAME', 'morifuji');
 
+define("WPLANG","ja");
+
 /** MySQL database username */
 define('DB_USER', 'root');
 

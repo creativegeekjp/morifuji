@@ -35,12 +35,13 @@
 		</div><!-- .site-branding -->
 
 
-		<div id="language" class="pull-right">
+		<!-- <div id="language" class="pull-right">
 			<ul class="list-inline">
 				<li><a href="#"><i class="fa fa-caret-right"></i> english</a></li>
 				<li><a href="#"><i class="fa fa-caret-right"></i> japanese</a></li>
 			</ul>
 		</div>
+		-->
 
 		
 	</header><!-- #masthead -->

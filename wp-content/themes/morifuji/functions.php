@@ -118,6 +118,10 @@ function morifuji_scripts() {
 	wp_enqueue_style( 'morifuji-style', get_template_directory_uri() . '/assets/css/app.css', array(), '20120206', false );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), '20120206', false );
+	
+		wp_enqueue_style( 'owl-css', get_template_directory_uri() . '/assets/css/owl.carousel.css', array(), '20120206', false );
+	
+	wp_enqueue_script( 'owl-js', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'morifuji-js', get_template_directory_uri() . '/assets/js/app.js', array(), '20120206', true );
 
