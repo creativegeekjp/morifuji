@@ -41,3 +41,43 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .pageTitle{
 	text-shadow: 0 0 10px rgba(0,252,235,1) , 0 0 20px rgba(0,246,255,1) , 0 0 30px rgba(4,225,249,1) , 0 0 40px #0cf4f0 , 0 0 1px #09f7ef , 0 0 2px #02e8c5 , 0 0 0 rgba(0,229,237,1) ;
 }
+
+.home-below .col-lg-5, .home-below .col-lg-7 {
+  padding: 0 1px !important;
+}
+
+.post-18 .col-lg-4 {
+	padding-top: 0 !important;
+}
+
+.post-18 .entry-content p {
+	font-size: 11px;
+}
+
+.post-18 .entry-content .col-lg-4 h1 {
+	font-size: 14px;
+}
+
+.post-18 .imgContainer {
+	height: 100px;
+}
+
+.img-container-border img {
+	width: 100%;
+}
+
+.post-65 .inner-img {
+	padding: 0;
+}
+
+.post-65 .inner-img img {
+	width: 100%;
+}
+
+.part-c-inner .col-md-2 {
+	padding-right: 0;
+}
+
+.part-c-inner .col-md-10 {
+	padding-left: 0;
+}
